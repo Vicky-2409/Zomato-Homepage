@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    background-image: url(Images/bacground\ image.jpg);
+    height: 60%;
+    width: 100%;
+}
+
+h4,li,ul{
+    display: inline;
+    color: white;
+}
+ul{
+    margin-left: 30%;
+}
+
+li{
+    margin: 20px;
+}
+.navigation{
+    padding-top: 20px;
+}
+h4{
+    padding-left: 200px;
+}
+li{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+}
+.place,.search{
+    height: 40px;
+    
+
+}
+.place{
+    width:300px ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    height: 60px;
+    font-size: larger;
+}
+.search{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    height: 60px;
+    font-size: larger;
+   
+}
+p{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:30px ;
+}
+.cont{
+    text-align: center;
+
+}
+.option{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-top: 170px;
+    margin-left: 10%;
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+   
+
+}
+.options{
+    text-align: left;
+    border: 1px gray solid;
+    border-radius: 15px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 240px
+}
+.option-para{
+    color: grey;
+    font-size: medium;
+    padding: 10px;
+}
+.option-img{
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.collection-title{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.two-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150px;
+    margin-bottom: 50px;
+}
+.collection{
+    margin-left: 10%;
+}
+.collection-images{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 1150px;
+    margin-bottom: 100px;
+
+    
+}
+.Newly-open{
+    background-image: url(Images/Newly\ Opened\ Restaurants.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 275px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    
+
+}
+.best-in-chennai{
+    background-image: url(Images/Best\ in\ Chennai.jpg);
+    height: 325px;
+    background-size: cover;
+    width: 275px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+}
+.picture-cafe{
+    background-image: url(Images/Picturesque.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 275px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+}
+.must-visit{
+    background-image: url(Images/Must-visit.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 275px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+}
+.type-name{
+    font-size: large;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    display: block;
+   
+    
+}
+.nofplaces{
+    font-size: medium;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.title-location{
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    width: 28%;
+    height: 60px;
+    justify-content: space-between;
+    line-height: 30px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 25px 25px 0 25px;
+}
+.place-name{
+    color: black;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-left: 0;
+    position: relative;
+   
+}
+.no-places{
+    color:black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+.arrow{
+    color:black;
+    font-size: large;
+
+}
+.seemore{
+    color: black;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 100px;
+    justify-content: center;
+    margin-right: 20px;
+    
+}
+.down-arrow{
+    color:black;
+    font-size: large;
+    justify-content: center;
+
+}
+.see-more{
+    display: flex;
+
+}
+.down img{
+    width: 20px;
+    margin-top: 10px;
+}
+.section-5{
+    background-color: rgb(255, 251, 247);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.app-image{
+    width: 50%;
+    position: relative;
+}
+.screen-image{
+    height: 300px;
+    width: 300px;
+   position: absolute;
+   right: 100px;
+   bottom: 0px;
+
+
+}
+.get-app{
+    width: 50%;
+}
+.zomato-app{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.zomato-para{
+    color: black;
+    font-size: larger;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.mail{
+    color: black;
+    margin: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+
+}
+.mail-phone{
+    display: block;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.mail-box{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px gray solid;
+}
+.share-button{
+    height: 40px;
+    width: 150px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.app-download img{
+    height: 40px;
+    width: 150px;
+}
+.section-6{
+    height: 425px;
+}
+
+
+.Explore{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+
+}
+
+.Explore-option{
+    display: flex;
+    flex-direction: row;
+    border: 1px rgb(177, 177, 177) solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.option-cuisine{
+    color: rgb(75,75,75);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:0px ;
+    margin-left: 20px;
+
+}
+.explore-option img{
+    margin-right: 20px;
+}
+.section-7{
+    background-color: rgb(248,248,248);
+}
+.section-7-1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.zomato-black-logo img{
+    height: 30px;
+}
+.section-7-1-2{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.section-7-1-2-1{
+    display: flex;
+    border: 1px black solid;
+    width: 110px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px
+}
+.section-7-1-2-1 img{
+    width: 20px;
+    height: 20px;
+}
+.section-7-1-2-1 p{
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.section-7-1-2-2{
+    display: flex;
+    border: 1px black solid;
+    width: 120px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+
+}
+.section-7-1-2-2 img{
+    width: 20px;
+    height: 20px;
+}
+.section-7-1-2-2 p{
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.section-3rd{
+    display: flex;
+    flex-direction: column;
+
+}
+.section-7-2-1{
+    margin-bottom: 20px;
+}
+.section-7-2{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-7-2-1-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;   
+    color: black;
+    line-height: 30px;
+}
+.section-7-2-1-1 li{
+    color: rgb(139,139,139);
+    display: inline;  
+    margin: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-7-2-1-1 h4{
+    color: black;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-5-1{
+    margin-bottom: 10px;
+}
+.section-5-1 h4{
+    color: black;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.social-icons{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.download-opt{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    justify-content: space-between;
+}
+.download-opt img{
+    height: 50px;
+    width: 150px;
+}
+.hor-roll{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+.copy-right{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+}
+.copy-right p{
+    color: black;
+    font-size: medium;
+}
